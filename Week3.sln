@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oddoreven", "..\Oddoreven\O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus", "..\Modulus\Modulus.csproj", "{B8DBE46C-B855-4B91-B417-740AB32CA6D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ifdayoftheweek", "Ifdayoftheweek", "{3FB7901C-C1D5-4565-85CF-C42E2A9ACEFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulus", "Modulus", "{A17E264A-2D85-4448-A6CC-ACB8E47042BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oddoreven", "Oddoreven", "{03F236C3-612D-42E6-9F05-2C7A88D435EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Switchdayoftheweek", "Switchdayoftheweek", "{C1E3C8C6-E935-4308-B499-482F8CB34A65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71C7FEBF-259C-4079-981D-BF73CAF218F7} = {3FB7901C-C1D5-4565-85CF-C42E2A9ACEFA}
+		{F74BB8BC-915B-4FD9-A73A-DB3BD5AFF3F6} = {C1E3C8C6-E935-4308-B499-482F8CB34A65}
+		{3F05CBAA-593A-4B4B-88DA-A2BC1CF4545D} = {03F236C3-612D-42E6-9F05-2C7A88D435EA}
+		{B8DBE46C-B855-4B91-B417-740AB32CA6D6} = {A17E264A-2D85-4448-A6CC-ACB8E47042BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99847B94-6F6F-4EA9-943E-E13EC6FBA802}
